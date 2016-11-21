@@ -11,8 +11,8 @@ Resize and crop your uploaded image using a clear user interface.
 
 ```javascript
 
-var React = require('react'),
-  AvatarEditor = require('react-avatar-editor');
+import React from 'react';
+import AvatarEditor from 'react-avatar-editor';
 
 var MyEditor = React.createClass({
 
@@ -58,8 +58,8 @@ If you want the image sized in the dimensions of the canvas you can use `getImag
 
 ```javascript
 
-var React = require('react'),
-  AvatarEditor = require('react-avatar-editor');
+import React from 'react';
+import AvatarEditor from 'react-avatar-editor';
 
 var MyEditor = React.createClass({
   onClickSave: function() {
